@@ -1,0 +1,1663 @@
+{
+  "servers": [
+    {
+      "accessIPv4": "175.60.56.161",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2025-01-16T13:03:22Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "15234151-bf92-4ec1-b5e4-0403eabd17d5",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/15234151-bf92-4ec1-b5e4-0403eabd17d5",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium-mem8 2vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "c9789153-917a-4504-8024-9616759fd240",
+      "image": {
+        "id": "4d903edb-e92d-4a09-a04d-e0ce8308bc91",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/4d903edb-e92d-4a09-a04d-e0ce8308bc91",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "hanumanth_dev_1",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:04:6e:ff"
+    },
+    {
+      "accessIPv4": "171.120.11.7",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2025-01-16T07:18:31Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "1f01b92d-d101-48a4-b3ff-232ed598f963",
+      "image": {
+        "id": "4d903edb-e92d-4a09-a04d-e0ce8308bc91",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/4d903edb-e92d-4a09-a04d-e0ce8308bc91",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "development-vm",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:95:9a:9e"
+    },
+    {
+      "accessIPv4": "175.60.58.55",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-26T10:26:17Z",
+      "description": "PRE-app ressource pre-mimir-dev-ocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "3790ff56-d73d-46a6-8092-737daac90d9f",
+      "image": {
+        "id": "952b3c64-7f0b-4f81-8f80-ef13a9502823",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/952b3c64-7f0b-4f81-8f80-ef13a9502823",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa_mimir",
+      "metadata": {
+        "osblk_volume_id": "dc4bb903-f598-49d4-834e-0304b8456172"
+      },
+      "name": "pre-mimir-dev-ocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Mimir",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:af:4a:49"
+    },
+    {
+      "accessIPv4": "175.60.58.161",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-26T10:26:17Z",
+      "description": "PRE-app ressource pre-mimir-dev-ocs_01",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "6073013f-57f8-46d3-b5ce-fac8005296b9",
+      "image": {
+        "id": "952b3c64-7f0b-4f81-8f80-ef13a9502823",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/952b3c64-7f0b-4f81-8f80-ef13a9502823",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa_mimir",
+      "metadata": {
+        "osblk_volume_id": "fe915f1f-d78c-43d9-96b4-4785f02aa224"
+      },
+      "name": "pre-mimir-dev-ocs_01",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Mimir",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:35:76:19"
+    },
+    {
+      "accessIPv4": "175.62.61.71",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-12-26T10:26:16Z",
+      "description": "PRE-app ressource pre-mimir-dev-ocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "29536148-d7cb-4ef1-87e6-d44052eac323",
+      "image": {
+        "id": "952b3c64-7f0b-4f81-8f80-ef13a9502823",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/952b3c64-7f0b-4f81-8f80-ef13a9502823",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa_mimir",
+      "metadata": {
+        "osblk_volume_id": "5ec73caa-db32-40cd-a247-afe649038f1b"
+      },
+      "name": "pre-mimir-dev-ocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Mimir",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:ba:65:e8"
+    },
+    {
+      "accessIPv4": "175.60.59.144",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-17T14:00:47Z",
+      "description": "PRE-app ressource pre-webhookocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "349e5a97-a4e4-4904-8883-209983952f90",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "pre-webhookocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Webhook"
+      ],
+      "vifmacaddress": "fa:16:3e:5a:2c:e7"
+    },
+    {
+      "accessIPv4": "175.62.58.81",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-12-17T14:00:47Z",
+      "description": "PRE-app ressource pre-webhookocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "e624ac46-ec49-49e7-bc87-c20c1a463396",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "pre-webhookocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Webhook"
+      ],
+      "vifmacaddress": "fa:16:3e:03:6b:f6"
+    },
+    {
+      "accessIPv4": "171.120.14.228",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-17T13:08:33Z",
+      "description": "PRE-app resource cirrus-loki-devocs_01",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "10003e1c-ee10-4714-9661-f2a89f04ce95",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "cirrus_loki",
+      "metadata": {
+        "osblk_volume_id": "419ebc64-9eae-4cad-9c80-52013caf5a78"
+      },
+      "name": "cirrus-loki-devocs_01",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Loki",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:7d:47:b8"
+    },
+    {
+      "accessIPv4": "171.120.14.38",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-17T13:07:51Z",
+      "description": "PRE-app resource cirrus-loki-devocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "5a320637-ac18-4188-8e4d-56cc83c69b90",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "cirrus_loki",
+      "metadata": {
+        "osblk_volume_id": "36ea3c5a-6c49-44a8-91cb-ed32c42b2045"
+      },
+      "name": "cirrus-loki-devocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Loki",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:6b:7d:48"
+    },
+    {
+      "accessIPv4": "171.121.13.180",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-12-17T13:07:51Z",
+      "description": "PRE-app resource cirrus-loki-devocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "84e4b9ef-50e9-43e0-8724-8fa6e6186410",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "cirrus_loki",
+      "metadata": {
+        "osblk_volume_id": "b11e0b03-201e-40ec-bbf7-6a3f45835221"
+      },
+      "name": "cirrus-loki-devocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Loki",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:6a:34:97"
+    },
+    {
+      "accessIPv4": "171.120.14.181",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-17T12:54:01Z",
+      "description": "PRE-app resource pre-tempo-devocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "22f38bf6-01f6-452c-987e-85d85f15dc48",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_tempo",
+      "metadata": {
+        "osblk_volume_id": "5b29f931-aef5-48a8-9add-a6dd2298401d"
+      },
+      "name": "pre-tempo-devocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Tempo"
+      ],
+      "vifmacaddress": "fa:16:3e:7a:d2:f8"
+    },
+    {
+      "accessIPv4": "171.120.9.3",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-17T12:54:01Z",
+      "description": "PRE-app resource pre-tempo-devocs_01",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "9d1161d0-db9f-4ea5-996a-77630e6d9da2",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_tempo",
+      "metadata": {
+        "osblk_volume_id": "28e3cfc2-c945-41d5-9447-889c9056aad8"
+      },
+      "name": "pre-tempo-devocs_01",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Tempo"
+      ],
+      "vifmacaddress": "fa:16:3e:8b:bc:77"
+    },
+    {
+      "accessIPv4": "171.121.8.188",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-12-17T12:54:01Z",
+      "description": "PRE-app resource pre-tempo-devocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "c114f615-625a-46ec-a343-6255688ab03e",
+      "image": {
+        "id": "91869710-9aa3-4d24-8f8f-33b757470480",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/91869710-9aa3-4d24-8f8f-33b757470480",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_tempo",
+      "metadata": {
+        "osblk_volume_id": "33d6c3d4-0a2b-4bbd-a887-fbf7e1e2a8c9"
+      },
+      "name": "pre-tempo-devocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Tempo"
+      ],
+      "vifmacaddress": "fa:16:3e:76:ca:75"
+    },
+    {
+      "accessIPv4": "175.60.63.206",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-10T15:52:01Z",
+      "description": "PRE-app ressource pre-exporters_ocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "4f88ce5d-a46a-467b-83ec-0669ca96bf9c",
+      "image": {
+        "id": "5b17280d-940b-4143-b1eb-e290f7745262",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/5b17280d-940b-4143-b1eb-e290f7745262",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {
+        "osblk_volume_id": "7099b7c0-5392-4aa1-ad21-b074182e97ca"
+      },
+      "name": "pre-exporters_ocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Prometheus",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:eb:17:ca"
+    },
+    {
+      "accessIPv4": "175.60.63.210",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-12-10T10:58:39Z",
+      "description": "PRE-app ressource pre-webhook-changeocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "e9131b74-f503-466f-8970-fdd5d7919cc4",
+      "image": {
+        "id": "5b17280d-940b-4143-b1eb-e290f7745262",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/5b17280d-940b-4143-b1eb-e290f7745262",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "pre-webhook-changeocs_00",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Webhook"
+      ],
+      "vifmacaddress": "fa:16:3e:84:8c:7c"
+    },
+    {
+      "accessIPv4": "175.62.56.242",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-11-18T10:59:07Z",
+      "description": "PRE-app ressource pre-prom-dev-ocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "7f9c3824-cf00-44aa-8842-1a44aa26340a",
+      "image": {
+        "id": "f991ef85-a16b-4efe-922e-938a65fe3cb5",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/f991ef85-a16b-4efe-922e-938a65fe3cb5",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {
+        "osblk_volume_id": "9e070212-01fd-4275-89f8-b3716c75483c"
+      },
+      "name": "pre-prom-dev-ocs_00",
+      "security_groups": [
+        {
+          "name": "Prometheus"
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Prometheus",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:49:18:3f"
+    },
+    {
+      "accessIPv4": "175.60.59.75",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-11-18T10:59:07Z",
+      "description": "PRE-app ressource pre-prom-dev-ocs_00",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "cc92886b-404c-40ab-9826-ac436e2d9ae7",
+      "image": {
+        "id": "f991ef85-a16b-4efe-922e-938a65fe3cb5",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/f991ef85-a16b-4efe-922e-938a65fe3cb5",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {
+        "osblk_volume_id": "78c4899d-5f12-461e-9146-9ef0ce1e3b1d"
+      },
+      "name": "pre-prom-dev-ocs_00",
+      "security_groups": [
+        {
+          "name": "Prometheus"
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "Prometheus",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:11:5c:4d"
+    },
+    {
+      "accessIPv4": "171.120.11.225",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-10-08T10:51:57Z",
+      "description": "VM to run ansible for OCS Patching",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "6232f185-47b1-4241-b622-8f63d09a9d7a",
+      "image": {
+        "id": "a2491a26-504c-4e24-81e6-a8a16ea16a52",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/a2491a26-504c-4e24-81e6-a8a16ea16a52",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "patching_ansible",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:65:2b:91"
+    },
+    {
+      "accessIPv4": "192.167.160.107",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-10-03T10:32:33Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "afab83f3-3fc5-4165-b7e0-860f6c578b92",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/afab83f3-3fc5-4165-b7e0-860f6c578b92",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Small 1vCPU-2GB",
+        "ram": 2048,
+        "swap": 0,
+        "vcpus": 1
+      },
+      "id": "7e70eea3-fc13-4fa8-b385-545ad24a07fe",
+      "image": {
+        "id": "fca5957d-51fb-4330-9bbe-cd9275467b52",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/fca5957d-51fb-4330-9bbe-cd9275467b52",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "lucid-1",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:92:6d:85"
+    },
+    {
+      "accessIPv4": "171.121.12.43",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-09-10T12:04:00Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "9134d1fd-e870-4439-9e1a-61033838a7a8",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/9134d1fd-e870-4439-9e1a-61033838a7a8",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium-mem2 2vCPU-2GB",
+        "ram": 2048,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "cdb049ac-557e-47b0-a4ed-af35b47a3405",
+      "image": {
+        "id": "cbef6b8e-987c-4b0b-ad93-05f0d9c98017",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/cbef6b8e-987c-4b0b-ad93-05f0d9c98017",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "hanumanth_dev",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:6f:2c:05"
+    },
+    {
+      "accessIPv4": "171.120.9.8",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-09-04T10:39:32Z",
+      "description": "VM for testing Celery operations",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "71848614-9257-4021-b95c-0f93ba01f5a2",
+      "image": {
+        "id": "6f704eec-f7bc-40d1-b5ad-4cbe2386ae26",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/6f704eec-f7bc-40d1-b5ad-4cbe2386ae26",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "sandip_dev",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:48:40:22"
+    },
+    {
+      "accessIPv4": "171.120.11.149",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-09-03T06:10:33Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "a23e34f5-f1f8-4dc3-8dff-96114136e18a",
+      "image": {
+        "id": "6f2adb99-6b1e-4a38-a830-9378cf5dfff1",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/6f2adb99-6b1e-4a38-a830-9378cf5dfff1",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "pre-webapp",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:03:b8:66"
+    },
+    {
+      "accessIPv4": "175.60.63.146",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-07-17T07:00:07Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "fb32d321-b6d5-40bf-9432-a11f0d1ad4c0",
+      "image": {
+        "id": "f6e3587d-f60b-4f68-a7d0-22e75c52574e",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/f6e3587d-f60b-4f68-a7d0-22e75c52574e",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "tristan-dev-rhel8",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:96:68:ef"
+    },
+    {
+      "accessIPv4": "175.62.61.177",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-07-10T14:14:04Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "a0f2a713-fbae-4705-ad8b-72c9fc77735d",
+      "image": {
+        "id": "f6e3587d-f60b-4f68-a7d0-22e75c52574e",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/f6e3587d-f60b-4f68-a7d0-22e75c52574e",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "lucie",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:a0:9d:b1"
+    },
+    {
+      "accessIPv4": "182.244.47.102",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-06-13T10:15:24Z",
+      "description": "Backend server for PRE resource management",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "33bd3ef6-ec04-4303-8f71-ba3028d29dfb",
+      "image": {
+        "id": "ade692fb-6cc8-4b7a-a675-7245265ccd27",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/ade692fb-6cc8-4b7a-a675-7245265ccd27",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "ResourceManagement",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:90:05:59"
+    },
+    {
+      "accessIPv4": "175.60.58.208",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-05-23T12:46:31Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "bcc1437d-7240-4ec6-89ec-08a9f159663b",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/bcc1437d-7240-4ec6-89ec-08a9f159663b",
+            "rel": "self"
+          }
+        ],
+        "original_name": "XXLarge-mem128 12vCPU-128GB",
+        "ram": 131072,
+        "swap": 0,
+        "vcpus": 12
+      },
+      "id": "4d1d4583-b6aa-4289-b03f-6e0b8fc3c694",
+      "image": {
+        "id": "fc4bd7c4-d93a-4b28-8eb5-fbc742cd8195",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/fc4bd7c4-d93a-4b28-8eb5-fbc742cd8195",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "jupyter_erik",
+      "metadata": {},
+      "name": "jupyter_erik-dev-0",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "Application:jupyter_erik",
+        "Env:dev",
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Type:VM"
+      ],
+      "vifmacaddress": "fa:16:3e:99:60:67"
+    },
+    {
+      "accessIPv4": "175.62.58.33",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-05-21T15:21:40Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "bcc1437d-7240-4ec6-89ec-08a9f159663b",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/bcc1437d-7240-4ec6-89ec-08a9f159663b",
+            "rel": "self"
+          }
+        ],
+        "original_name": "XXLarge-mem128 12vCPU-128GB",
+        "ram": 131072,
+        "swap": 0,
+        "vcpus": 12
+      },
+      "id": "4597c64f-8b3d-4c02-b919-7d973d52bc5f",
+      "image": {
+        "id": "fc4bd7c4-d93a-4b28-8eb5-fbc742cd8195",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/fc4bd7c4-d93a-4b28-8eb5-fbc742cd8195",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "Jupyter",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:eb:de:a7"
+    },
+    {
+      "accessIPv4": "175.60.58.175",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-05-06T13:06:49Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "29c79845-e665-47d1-9f7c-ccb3fd4978ab",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/29c79845-e665-47d1-9f7c-ccb3fd4978ab",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium-mem16 2vCPU-16GB",
+        "ram": 16384,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "c3eefb2a-3bb3-4ca6-b7e3-b9dce104116d",
+      "image": {
+        "id": "4a69c7d4-30e7-414d-b48d-b42fae864514",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/4a69c7d4-30e7-414d-b48d-b42fae864514",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "Anas_dev",
+      "metadata": {},
+      "name": "remote_workspace_anas",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:c5:24:46"
+    },
+    {
+      "accessIPv4": "175.60.58.21",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-05-06T10:57:56Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "3a02911a-b6db-4829-b058-d7c9fb991e9f",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/3a02911a-b6db-4829-b058-d7c9fb991e9f",
+            "rel": "self"
+          }
+        ],
+        "original_name": "XLarge-mem32 8vCPU-32GB",
+        "ram": 32768,
+        "swap": 0,
+        "vcpus": 8
+      },
+      "id": "efb23898-8dc5-4074-8a46-0659b8448aa3",
+      "image": {
+        "id": "0ab951cf-3e4a-4a70-8304-84b3a841817a",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/0ab951cf-3e4a-4a70-8304-84b3a841817a",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "worker_erik",
+      "metadata": {},
+      "name": "worker_erik-dev-0",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "Application:worker_erik",
+        "Env:dev",
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Type:VM"
+      ],
+      "vifmacaddress": "fa:16:3e:e4:e4:bb"
+    },
+    {
+      "accessIPv4": "175.62.59.244",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-04-30T09:37:51Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "57c3e34a-981d-4f77-9134-e1c1ce121a4b",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/57c3e34a-981d-4f77-9134-e1c1ce121a4b",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Small-mem4 1vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 1
+      },
+      "id": "0e16822d-e708-4ecb-a8c3-c53f057422e5",
+      "image": {
+        "id": "9c02c9cd-87b4-4b93-ae30-ac1950139a39",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/9c02c9cd-87b4-4b93-ae30-ac1950139a39",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "psamon-green",
+      "metadata": {},
+      "name": "psamon-dev-eu-fr-paris-2",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "Application:psamon",
+        "Color:green",
+        "Env:dev",
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Type:VM",
+        "whitelist"
+      ],
+      "vifmacaddress": "fa:16:3e:62:0e:72"
+    },
+    {
+      "accessIPv4": "175.60.58.45",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-04-30T09:37:51Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "57c3e34a-981d-4f77-9134-e1c1ce121a4b",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/57c3e34a-981d-4f77-9134-e1c1ce121a4b",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Small-mem4 1vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 1
+      },
+      "id": "a017061e-9371-42fc-a919-4919683332cf",
+      "image": {
+        "id": "9c02c9cd-87b4-4b93-ae30-ac1950139a39",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/9c02c9cd-87b4-4b93-ae30-ac1950139a39",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "psamon-green",
+      "metadata": {},
+      "name": "psamon-dev-eu-fr-paris-1",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "Application:psamon",
+        "Color:green",
+        "Env:dev",
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "Type:VM"
+      ],
+      "vifmacaddress": "fa:16:3e:da:68:73"
+    },
+    {
+      "accessIPv4": "175.62.61.171",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-04-10T07:12:59Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "ab91679b-99fc-412e-8626-cc6920f1833c",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/ab91679b-99fc-412e-8626-cc6920f1833c",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Large 4vCPU-8GB",
+        "ram": 8192,
+        "swap": 0,
+        "vcpus": 4
+      },
+      "id": "9281f86d-38ef-49b1-a1d1-f3fb8a8e2e55",
+      "image": {
+        "id": "3bb9822e-42aa-4ec4-89cc-3847e6d977d1",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/3bb9822e-42aa-4ec4-89cc-3847e6d977d1",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "Steve",
+      "metadata": {},
+      "name": "steve2",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:10:d8:31"
+    },
+    {
+      "accessIPv4": "171.121.31.98",
+      "availability_zone": "eu-fr-paris-2",
+      "created": "2024-04-09T09:57:12Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "afab83f3-3fc5-4165-b7e0-860f6c578b92",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/afab83f3-3fc5-4165-b7e0-860f6c578b92",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Small 1vCPU-2GB",
+        "ram": 2048,
+        "swap": 0,
+        "vcpus": 1
+      },
+      "id": "4bef7afc-f88d-4d9a-8c94-1c23a95a2ba4",
+      "image": {
+        "id": "8e382c70-8da9-4f58-8726-a3ab430a698d",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/8e382c70-8da9-4f58-8726-a3ab430a698d",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "pre_rsa",
+      "metadata": {},
+      "name": "rhel-tristan-dev-paris2",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51"
+      ],
+      "vifmacaddress": "fa:16:3e:36:d8:e0"
+    },
+    {
+      "accessIPv4": "171.120.33.144",
+      "availability_zone": "eu-fr-paris-1",
+      "created": "2024-01-13T08:24:44Z",
+      "description": "",
+      "flavor": {
+        "disk": 0,
+        "id": "1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/flavors/1ae033eb-0fe3-4091-b36e-0f6d09a0d059",
+            "rel": "self"
+          }
+        ],
+        "original_name": "Medium 2vCPU-4GB",
+        "ram": 4096,
+        "swap": 0,
+        "vcpus": 2
+      },
+      "id": "43f030de-8ee9-493e-b52a-cf0fc419e960",
+      "image": {
+        "id": "3fb240e0-c9b3-4ab3-8619-2a6bfaeb171f",
+        "links": [
+          {
+            "href": "https://ocs.eu-fr-paris.cloud.socgen/v0/images/3fb240e0-c9b3-4ab3-8619-2a6bfaeb171f",
+            "rel": "self"
+          }
+        ]
+      },
+      "key_name": "sukamal-ssh",
+      "metadata": {},
+      "name": "sukamal-test",
+      "security_groups": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "SGCP_INFRA_SECURITY_GROUP_V3"
+        }
+      ],
+      "status": "ACTIVE",
+      "tags": [
+        "gts:PUPPET_ENROLLED",
+        "sgcp:beneficiary=55f82008-f2d2-405a-95ab-fd4b2cfe6f51",
+        "whitelist"
+      ],
+      "vifmacaddress": "fa:16:3e:cc:2a:3c"
+    }
+  ]
+}
